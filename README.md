@@ -1,1 +1,1 @@
-simple room app with light on and off, and thermostat
+Simple React room app with light on and off, and thermostat.
