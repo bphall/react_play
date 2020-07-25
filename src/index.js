@@ -46,6 +46,9 @@ const [currNumber, addNumber] = React.useState(0)
   <button onClick={() => addNumber(currNumber + 1)}>
   click
   </button>
+  <br>
+    currNumber
+  </br>
   )
 }
 
