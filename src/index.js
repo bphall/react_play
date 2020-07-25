@@ -43,13 +43,18 @@ function App () {
 const [currNumber, addNumber] = React.useState(0)
 
   return (
+  <div>
   <button onClick={() => addNumber(currNumber + 1)}>
-  click
+      add one
   </button>
-  <br>
-    currNumber
-  </br>
-  )
+  <button onClick={() => addNumber(currNumber - 1)}>
+      minus one
+  </button>
+  <br/>
+      {currNumber}
+  </div>
+  
+  );
 }
 
 ReactDOM.render(
