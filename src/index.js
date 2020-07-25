@@ -40,9 +40,13 @@ import './index.css'
 
 
 function App () {
-  <button onClick{() => addNumber()}>
+const [currNumber, addNumber] = React.useState(0)
+
+  return (
+  <button onClick={() => addNumber(currNumber + 1)}>
   click
   </button>
+  )
 }
 
 ReactDOM.render(
