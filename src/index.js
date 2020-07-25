@@ -38,7 +38,14 @@ import './index.css'
 //   );
 // }
 
-// ReactDOM.render(
-// <Room />,
-//   document.getElementById('root')
-// );
+
+function App () {
+  <button onClick{() => addNumber()}>
+  click
+  </button>
+}
+
+ReactDOM.render(
+<App />,
+  document.getElementById('root')
+);
