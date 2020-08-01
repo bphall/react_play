@@ -54,9 +54,11 @@ const [currNumber, addNumber] = React.useState(0)
       {currNumber}
   <br/>
   <form>
-      <input>
-        
-      </input>  
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
     </form>
   </div>
   
