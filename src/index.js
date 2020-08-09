@@ -59,7 +59,7 @@ const [currNumber, addNumber] = React.useState(0)
     Name:
     <input type="text" name="name" />
   </label>
-  <input type="submit" ="Submit" />
+  <input type="submit" value="Submit" />
     </form>
   </div>
   // need to add .js with controlled component for form
