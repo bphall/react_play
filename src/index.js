@@ -62,7 +62,6 @@ const [currNumber, addNumber] = React.useState(0)
   <input type="submit" value="Submit" />
     </form>
   </div>
-  // need to add .js with controlled component for form
   );
 }
 
