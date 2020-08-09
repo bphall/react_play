@@ -64,7 +64,7 @@ const [currNumber, addNumber] = React.useState(0)
   </div>
   );
 }
-// chess board with CSS
+// chess board with CSS, with business logic on backend
 
 
 ReactDOM.render(
