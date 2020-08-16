@@ -59,7 +59,7 @@ const [currNumber, addNumber] = React.useState(0)
     Name:
     <input type="text" name="name" />
   </label>
-  <input type="submit" value="Submit" />
+  <input type="submit" value="Submit" comment/>
     </form>
   </div>
   );
