@@ -59,12 +59,13 @@ const [currNumber, addNumber] = React.useState(0)
     Name:
     <input type="text" name="name" />
   </label>
-  <input type="submit" value="Submit" comment/>
+  <input type="submit" value="Submit"/>
     </form>
   </div>
   );
 }
 // chess board with CSS, with business logic on backend
+// get scala base 
 
 
 ReactDOM.render(
