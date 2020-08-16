@@ -65,7 +65,7 @@ const [currNumber, addNumber] = React.useState(0)
   );
 }
 // chess board with CSS, with business logic on backend
-// get scala base 
+// get scala base from li
 
 
 ReactDOM.render(
